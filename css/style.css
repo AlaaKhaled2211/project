@@ -381,3 +381,136 @@ i
     border-radius: 100px;
 }
 /* ____________end section resources______________________ */
+/*   start  nominees sec   */
+*{
+    padding: 0;
+    margin: 0 !important;
+    box-sizing: border-box;
+}
+a{
+    color: black;
+   
+}
+a:hover
+{
+    text-decoration: none;
+    opacity: .7;
+    transition: all .5s;
+    color: black;
+}
+
+
+.col-md-4
+{
+    overflow: hidden;
+}
+.resources
+{
+    background-color: #F4F7F6;
+}
+.header a{
+    font-size: 24px;
+    color: black;
+}
+i 
+{
+    color: aqua;
+    font-size: 20px;
+}
+
+.imgs{
+    border-top: 1px solid #ddd;
+}
+.imgs img 
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.info
+{
+    background-color: white;
+}
+.butn button
+{
+    background-color: white;
+}
+.info a h3 
+{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 25px;
+    
+}
+.linkSite span a 
+{
+    color: #49c5b6;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    font-weight: 500;
+}
+.linkSite span a:hover 
+{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+.overLine{
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all .5s;
+    background-color: #5c5f5f;
+}
+.overLine .arrow
+{
+    right: 30px;
+    bottom: 35px;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overLine:hover{
+    background-color: #5c5f5f;
+    opacity: .8;
+
+}
+
+.overLine .social
+{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+.overLine .social i 
+{
+    color: white ;
+    font-size: 28px;
+}
+.collectBtn button
+{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-radius: 100px;
+}
+.sp{
+    padding-left: 4px;
+}
+.dad{
+    width: 100%;
+    background-color: slategray;
+}
+
