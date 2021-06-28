@@ -1,0 +1,110 @@
+
+
+
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: rgba(19, 13, 13, 0.288);
+    text-decoration: none;
+}
+
+.testImg{
+    width: 25px;
+    height: 25px;
+
+}
+
+.icons{
+    width: 125px;
+    /* height: 15px; */
+    font-size: 15px;
+    color: white;
+}
+.icon1{
+    border-radius: 30px;
+    /* width: 30px; */
+    height: 15px;
+    padding: 5px;
+}
+
+
+.divBack{
+    background-color: rgba(0, 0, 0, 0.212);
+    position:absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+
+}
+.itemImg:hover .divBack{
+    display: block;
+    transition: all 1s;
+} 
+.itemImg:hover .imgSrc img{
+    transform: scale(1.1,1.1);
+}
+.itemImg{
+    overflow: hidden;
+}
+
+
+.test1{
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(241, 237, 237);
+    background-color: rgb(233, 225, 229);
+    font-size: x-large;
+    color: white;
+    cursor: pointer;
+}
+.test1:hover{
+    background-color: gainsboro;
+}
+
+
+
+
+.nav2
+{
+    border-top: 1px solid #ddd;
+    padding: 0 1rem;
+   
+}
+nav
+{
+    z-index: 55;
+}
+
+
+footer
+{
+    background-color: #FCFCFC;
+}
+.links
+{
+    border-bottom: 1px solid #ddd;
+}
+.links a
+{
+    color:black;
+    transition: all .5s;
+    padding-right: 15px;
+  
+}
+.links a:hover{
+    color: rgb(177, 173, 173);
+    text-decoration: none;
+
+}
+.follow span 
+{
+    font-size: 18px;
+    font-weight: 700;
+    padding-right: 10px;
+}
