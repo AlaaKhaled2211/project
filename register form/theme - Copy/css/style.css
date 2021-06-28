@@ -1,0 +1,28 @@
+#demo1{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    /* display: none; */
+}
+#demo2{
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    /* display: none; */
+}
+#demo3{
+    width: 200px;
+    height: 200px;
+    background-color: indigo;
+    /* display: none; */
+}
+
+
+section{
+  width: 20px ;
+  height: 20px ;
+}
+
+.item , h1 {
+    display:none;
+}
