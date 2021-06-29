@@ -314,6 +314,138 @@ a:hover{
     padding-right: 10px;
 }
 /* ــــــــــــــــ end section footer  ____________________ */
+
+
+
+
+
+
+
+
+
+/*  start section acadmy and directory    */
+
+.bg-lighter{
+    background-color: #F4F7F6;
+}
+.container-fluid{
+  width:98%;
+  position: relative;
+}
+.col-md-3{
+    margin:5px;
+}
+.info{
+    color:#49c5b6 !important;
+}
+.btn{
+    padding: 0 16px;
+    line-height: 32px;
+    border:1px solid  #a6abab;
+    border-radius: 34px;
+    color:#64686a;
+    text-transform: capitalize;
+    font-size:14px;
+    transition:all 0.5s;
+}
+.btn:hover{
+    border-color: #49c5b6;
+    color:#49c5b6;
+}
+.cards{
+    width:99%;
+}
+.card{
+    width:98%;
+}
+.conttent{
+    width: 95%;
+}
+.box{
+    padding:5rem;
+}
+.box-2{
+    padding:4rem;
+}
+.box-btn{
+    padding:10px ;
+    padding-bottom:20px;
+}
+.card{
+    border:none;
+    overflow: hidden;
+    width:98%;
+}
+.hour{
+    font-size:12px;
+}
+h6{
+    font-size:12px
+}
+span{
+    color:black !important;
+}
+.sp{
+    font-size: 16px;
+    width:7%;
+}
+.sp:hover{
+    font-size: 16px;
+    width:7%;
+    cursor:pointer;
+    color:#64686a;
+}
+.head{
+    width:97%;
+}
+.m-lin{
+    text-decoration:line-through;
+    color:#a6abab !important;
+    transition:all 0.5s;
+}
+.spn{
+    text-decoration:none;
+    color:#a6abab !important;
+    transition:all 0.5s;
+}
+
+.card-body .btn:hover .m-lin{
+    color:#49c5b6 !important;
+}
+.card-body .btn:hover .spn{
+    color:#49c5b6 !important;
+}
+
+.shadow{
+    padding:30%;
+    position:absolute;
+    z-index: 2;
+    top:0;
+    transition: all 0.5s;
+}
+.shadow:hover{
+    background: rgba(0, 0, 0, 0.2);
+    position:absolute;
+    z-index: 2;
+    top:0;
+    overflow: hidden;
+}
+.card img{
+    transition: all 0.5s;
+}
+.card:hover img{
+    transform: scale(1.1,1.1);
+}
+.overF{
+    overflow: hidden;
+}
+.five,.sixs{
+    padding:32.5%;
+    transform: scale(1.2,1.2);
+}
+
+/*  end section acadmy and directory    */
+
 /* ________start section resources ____________________*/
 *{
     padding: 0;
