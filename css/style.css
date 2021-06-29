@@ -1,8 +1,9 @@
 .nav2
 {
     border-top: 1px solid #ddd;
-    padding: 0 1rem;
-   
+}
+.navbar{
+    padding: 0 !important;
 }
 nav
 {
@@ -34,10 +35,7 @@ nav
 
   
 }
-.share i 
-{
-    float: right;
-}
+
 .home p{
     color: white;
     text-decoration: none;
@@ -72,7 +70,7 @@ transition: all .6s;
 {
     width: 35px;
     height: 35px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 .progress{
     width: 100px;
